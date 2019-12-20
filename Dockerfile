@@ -40,10 +40,10 @@ WORKDIR /home/playground
 
 CMD [ "/bin/bash" ]
 
-COPY dataset.ipynb /home/playground/
-COPY homework.ipynb /home/playground/
-COPY pytorch.ipynb /home/playground/
-COPY utils.py /home/playground/
-COPY salt.py /home/playground/
+#COPY dataset.ipynb /home/playground/
+#COPY homework.ipynb /home/playground/
+#COPY pytorch.ipynb /home/playground/
+#COPY utils.py /home/playground/
+#COPY salt.py /home/playground/
 
 ENTRYPOINT jupyter notebook --no-browser --allow-root --port 8765
